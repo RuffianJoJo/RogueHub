@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <title>Ruffian's HTML Code Page</title>
+  <body>
+    <h1>What up! It's RuffianJoJo!</h1>
+  </body>
+</html>
+
+---basic HTML structure
