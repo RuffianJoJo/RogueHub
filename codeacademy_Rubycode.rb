@@ -1,3 +1,5 @@
+#Learning flow control
+
 print "What's your first name?"
 first_name = gets.chomp
 first_name2 = first_name.capitalize!
@@ -20,3 +22,17 @@ puts "The abbreviation for your state is #{state}"
 
 puts "So you are #{first_name} #{last_name} from #{city} #{state}"
 print "Pleased to meet you!"
+
+#EXAMPLES FORMULATING PROJECTS
+
+print "What's your name?"
+user_input = gets.chomp
+user_input2 = user_input.downcase!
+puts "Your fuckkking name is #{user_input}"
+
+if user_input.include? "s"
+  user_input.gsub!(/s/, "th")
+  puts "I'ma call you #{user_input} ha ha!"
+else
+  puts "Ain't no 's's up in here -_-"
+end
